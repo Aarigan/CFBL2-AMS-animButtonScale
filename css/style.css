@@ -39,6 +39,7 @@ button {
   outline: none;
   font-size: 1.125em;
   font-weight: 400;
+  text-align: center;
   text-transform: capitalize;  
   transition: transform 0.2s ease;
   box-shadow: 0 .313em .625em #00000033;
@@ -107,14 +108,20 @@ button {
   border-radius: 50%;
   color: #b9fcb0;
   background: #129801;
-  font-size: .015em;
+  font-size: 1em;
 }
 
+/*  exemple with webkit */
 .button5:hover {
   color: #0e4f06;
   background: #2ffd14;
   transition-delay: .1s;
-  transform: scale(2);
+   -webkit-transition-delay: .1s;
+       -o-transition-delay: .1s;
+          transition-delay: .1s;
+  -webkit-transform: scale(2);
+      -ms-transform: scale(2);
+          transform: scale(2);
 }
 
 
