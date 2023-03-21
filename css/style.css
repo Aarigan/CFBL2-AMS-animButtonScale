@@ -53,7 +53,9 @@ button {
   background: #01e3ef;
 }
 
-.button1:hover {
+.button1:hover,
+.button1:focus,
+.button1:active {
   color: #8af9fe;
   background: #049ea6;
   transition-delay: .1s;
@@ -67,7 +69,9 @@ button {
   border-radius: .75em;
 }
 
-.button2:hover {
+.button2:hover,
+.button2:focus,
+.button2:active {
   color: #e4d4fd;
   background: #8124fa; 
   transition-delay: .1s;
@@ -81,7 +85,9 @@ button {
   border-radius: 1.5em;
 }
 
-.button3:hover {
+.button3:hover,
+.button3:focus,
+.button3:active {
   color: #202020;
   background: #737474;
   transition-delay: .1s;
@@ -95,7 +101,9 @@ button {
   border-radius: .625em 6.25em / 7.5em;
 }
 
-.button4:hover {
+.button4:hover,
+.button4:focus,
+.button4:active {
   color: #371e00;
   background: #8d6029;
   transition-delay: .1s;
@@ -113,7 +121,9 @@ button {
 }
 
 /*  exemple with webkit */
-.button5:hover {
+.button5:hover,
+.button5:focus,
+.button5:active {
   color: #0e4f06;
   background: #2ffd14;
   transition-delay: .1s;
